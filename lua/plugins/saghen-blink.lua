@@ -6,6 +6,13 @@ return {
       keymap = {
         preset = "super-tab",
       },
-    }
-  }
+      sources = {
+        default = { "lsp", "snippets", "path" },
+        -- { name = "blink" }
+        { name = "lsp" },
+        { name = "path" },
+        { name = "snippets" },
+      },
+    },
+  },
 }
